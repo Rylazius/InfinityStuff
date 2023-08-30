@@ -19,7 +19,9 @@ update = "2023-08-30"
 now = datetime.now()
 clock = now.strftime("%H:%M")
 
-keygeneration = "https://bitbucket.org/indopent/io048ds/raw/master/key.json"
+# OMG TORU BEST AUTH CRACKED ON IPHONE
+
+keygeneration = "https://raw.githubusercontent.com/Rylazius/InfinityStuff/main/key.json"
 keyload = requests.get(keygeneration)
 keyjson = json.loads(keyload.text)
 key = keyjson["key"]
